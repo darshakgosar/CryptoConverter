@@ -16,9 +16,9 @@ This Application is used for exchanging the crypto currency with the exchanged c
 
 ## Screenshots
 
-![Alt text](/src/images/screenshots/exchange.jpg?raw=true "Exchange")
+![Alt text](/src/assets/images/screenshots/exchange.jpg?raw=true "Exchange")
 
-![Alt text](/src/images/screenshots/history.jpg?raw=true "Exchange")
+![Alt text](/src/assets/images/screenshots/history.jpg?raw=true "Exchange")
 
 ## Technologies
 I used `ReactJs`, `NodeJs`, `ExpressJs`, `MongoDB`
