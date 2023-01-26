@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Project Title
+Crypto Currency Exchange Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Content:
 
-## Available Scripts
+- [About The App](#about-the-app)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Installation Requirement](#Installation Requirement)
+- [Libraries Used](#Libraries Used)
+- [Setup](#setup)
+- [License](#license)
 
-In the project directory, you can run:
+## About The App
+This Application is used for exchanging the crypto currency with the exchanged currency along with that user can also check live rates of almost all the Crypto currency which are active. User can place a request to exchange their crypto currency and submit the order. Once exchanged user will be able to see the transaction history in the application. User can also filter out the transactions based on type i.e 'Live' or 'Exchanged'.
 
-### `npm start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`![Writing](https://unsplash.com/photos/VBPzRgd7gfc)`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Picture by [Kelly Sikkema](https://unsplash.com/@kellysikkema)
 
-### `npm test`
+## Technologies
+I used `ReactJs`, `NodeJs`, `ExpressJs`, `MongoDB`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation Requirement
+-React Js - ^16
+-Node Js - ^16
+-mongoose - ^6
 
-### `npm run build`
+## Libraries Used
+# FrontEnd (React Js)
+-axios: "^1.2.3",
+-bootstrap: "^5.2.3",
+-express: "^4.18.2",
+-react-bootstrap: "^2.7.0",
+-react-bootstrap-table-next: "^4.0.3",
+-react-bootstrap-table2-paginator: "^2.1.2",
+-react-dom: "^18.2.0",
+-react-scripts: "5.0.1",
+-react-select: "^5.7.0",
+-sass: "^1.57.1"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Backend (Node Js)
+-bcrypt: "^5.0.1",
+-bcryptjs: "^2.4.3",
+-cookie-parser: "~1.4.4",
+-cors: "^2.8.5",
+-debug: "~2.6.9",
+-dotenv: "^16.0.1",
+-express: "^4.18.2",
+-http-errors: "~1.6.3",
+-jade: "~1.11.0",
+-jsonwebtoken: "^8.5.1",
+-mongoose: "^6.8.4"
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup
+# FrontEnd
+- download or clone the repository
+- run `npm install`
+- run `npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Backend
+go to path: cd .\Backend\
+- run `npm install`
+- run `npm start`
+- It would start running on port: 3002
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+MIT license @ [author](author.com)

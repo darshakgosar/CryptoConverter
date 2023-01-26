@@ -1,0 +1,69 @@
+.custom-form-elements {
+    // padding: 8px 5px;
+
+    input[type=text],
+    input[type=email],
+    input[type=number],
+    textarea,
+    .form-select,
+    .equalTo {
+        @include font($primary, "RedHatDisplay-Regular", 14px, 400, 21px);
+        color: $primary;
+
+        &::placeholder {
+            color: $neutral-1000;
+        }
+
+        &:focus {
+            color: $primary;
+        }
+    }
+
+    i {
+        right: 0%;
+        margin-right: 16px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+
+    label {
+        @include font($primary, "RedHatDisplay-Regular", 14px, 400, normal);
+        color: $neutral-500;
+    }
+
+    .error {
+        @include font($secondary, "RedHatDisplay-Regular", 14px, 400, normal);
+        color: red;
+    }
+
+    button {
+        background-color: #49CD5E;
+        text-align: center;
+        border: none;
+        border-radius: 8px;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: #49CD5E !important;
+            text-align: center !important;
+            border: none !important;
+            border-radius: 8px;
+        }
+
+        span {
+            @include font($secondary, "RedHatDisplay-Regular", 16px, 400, normal);
+        }
+    }
+
+    .css-1u9des2-indicatorSeparator {
+        display: none;
+    }
+
+    .currency-option {
+        span {
+            @include font($primary, "RedHatDisplay-Regular", 14px, 400, 21px);
+            color: $primary;
+        }
+    }
+}

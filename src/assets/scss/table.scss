@@ -1,0 +1,109 @@
+.custom-table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+        @include font($primary, "RedHatDisplay-Bold", 18px, 700, normal);
+    }
+
+    label {
+        @include font($primary, "RedHatDisplay-Regular", 14px, 400, normal);
+        color: $neutral-500;
+    }
+
+    .react-bootstrap-table {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+
+        table {
+
+            width: 100%;
+            overflow-x: scroll;
+
+
+            @media screen and (max-width: $medium) {
+                display: block;
+            }
+
+            th,
+            td {
+                @include font($secondary, "RedHatDisplay-Regular", 14px, 400, normal);
+                color: $primary;
+                text-align: left;
+            }
+
+            thead {
+                background-color: #EFEFEF;
+            }
+
+            tbody {
+                overflow-y: scroll;
+                overflow-x: hidden;
+            }
+
+            td,
+            th {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 100%;
+            }
+        }
+    }
+
+    .react-bootstrap-table-pagination {
+        width: 80%;
+
+        div {
+            justify-content: flex-start;
+            display: flex;
+            padding: 0px;
+        }
+
+        .react-bootstrap-table-pagination-list {
+            justify-content: flex-end;
+            display: flex;
+            padding: 0px;
+
+            ul {
+                margin: 0;
+            }
+        }
+    }
+
+    .css-13cymwt-control,
+    .css-t3ipsp-control {
+        width: 25%;
+        text-align: left;
+
+        &:focus,
+        &:hover,
+        &:active {
+            width: 25%;
+            text-align: left;
+            justify-content: flex-start;
+            border-color: $neutral-500  !important;
+            box-shadow: none;
+        }
+    }
+
+    .css-1nmdiq5-menu {
+        width: 25%;
+        text-align: left;
+
+        &:focus,
+        &:hover,
+        &:active {
+            width: 25%;
+            text-align: left;
+            justify-content: flex-start;
+            border-color: $neutral-500;
+        }
+    }
+
+    .css-1u9des2-indicatorSeparator {
+        display: none;
+    }
+}
