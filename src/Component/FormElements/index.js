@@ -29,8 +29,8 @@ const CustomForm = (props) => {
         props.setInputs(inputs => ({
             ...inputs,
             [name]: value,
-            'cryptoSymbol': cryptoList.find(c => c.value === crypto).symbol,
-            'currencySymbol': currencies.find(c => c.value === currency).symbol
+            'cryptoSymbol': cryptoList.find(c => c.value === crypto)?.symbol,
+            'currencySymbol': currencies.find(c => c.value === currency)?.symbol
         }));
     }
 
@@ -69,7 +69,7 @@ const CustomForm = (props) => {
         const cryptoconvert = await axios.get(url);
         setResult(cryptoconvert.data.RAW[crypto][currency]);
         if (quantity > 0) {
-            props.setAmount(currencies.find(c => c.value === currency).symbol + " " + (cryptoconvert.data.RAW[crypto][currency].PRICE * quantity))
+            props.setAmount(currencies.find(c => c.value === currency)?.symbol + " " + (cryptoconvert.data.RAW[crypto][currency]?.PRICE * quantity))
         }
     }
 
@@ -97,8 +97,8 @@ const CustomForm = (props) => {
                 }
                 props.setInputs(inputs => ({
                     ...inputs,
-                    'crypto': expectedCryptoList[0].value,
-                    'currency': currencies[0].value
+                    'crypto': expectedCryptoList[0]?.value,
+                    'currency': currencies[0]?.value
                 }));
                 setCryptoList(expectedCryptoList)
             }
