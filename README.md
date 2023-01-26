@@ -6,8 +6,8 @@ Crypto Currency Exchange Portal
 - [About The App](#about-the-app)
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
-- [Installation Requirement](#Installation Requirement)
-- [Libraries Used](#Libraries Used)
+- [Installation Requirement](#installation-requirement)
+- [Libraries Used](#libraries-used)
 - [Setup](#setup)
 - [License](#license)
 
