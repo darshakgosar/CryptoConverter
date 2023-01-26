@@ -66,5 +66,8 @@ go to path: cd .\Backend\
 - run `npm start`
 - It would start running on port: 3002
 
+# API used for fetching the Crypto-currency information
+- cryptocompare.com
+
 ## License
 MIT license @ [author](author.com)
