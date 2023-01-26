@@ -24,35 +24,35 @@ Picture by [Kelly Sikkema](https://unsplash.com/@kellysikkema)
 I used `ReactJs`, `NodeJs`, `ExpressJs`, `MongoDB`
 
 ## Installation Requirement
--React Js - ^16
--Node Js - ^16
--mongoose - ^6
+- React Js - ^16
+- Node Js - ^16
+- mongoose - ^6
 
 ## Libraries Used
 # FrontEnd (React Js)
--axios: "^1.2.3",
--bootstrap: "^5.2.3",
--express: "^4.18.2",
--react-bootstrap: "^2.7.0",
--react-bootstrap-table-next: "^4.0.3",
--react-bootstrap-table2-paginator: "^2.1.2",
--react-dom: "^18.2.0",
--react-scripts: "5.0.1",
--react-select: "^5.7.0",
--sass: "^1.57.1"
+- axios: "^1.2.3",
+- bootstrap: "^5.2.3",
+- express: "^4.18.2",
+- react-bootstrap: "^2.7.0",
+- react-bootstrap-table-next: "^4.0.3",
+- react-bootstrap-table2-paginator: "^2.1.2",
+- react-dom: "^18.2.0",
+- react-scripts: "5.0.1",
+- react-select: "^5.7.0",
+- sass: "^1.57.1"
 
 # Backend (Node Js)
--bcrypt: "^5.0.1",
--bcryptjs: "^2.4.3",
--cookie-parser: "~1.4.4",
--cors: "^2.8.5",
--debug: "~2.6.9",
--dotenv: "^16.0.1",
--express: "^4.18.2",
--http-errors: "~1.6.3",
--jade: "~1.11.0",
--jsonwebtoken: "^8.5.1",
--mongoose: "^6.8.4"
+- bcrypt: "^5.0.1",
+- bcryptjs: "^2.4.3",
+- cookie-parser: "~1.4.4",
+- cors: "^2.8.5",
+- debug: "~2.6.9",
+- dotenv: "^16.0.1",
+- express: "^4.18.2",
+- http-errors: "~1.6.3",
+- jade: "~1.11.0",
+- jsonwebtoken: "^8.5.1",
+- mongoose: "^6.8.4"
 
 ## Setup
 # FrontEnd
